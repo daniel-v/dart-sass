@@ -1,4 +1,3 @@
-@Tags(const ['vm'])
 import 'dart:async';
 import 'package:sass/src/ast/sass/statement/stylesheet.dart';
 import 'package:sass/src/visitor/perform.dart';
@@ -13,7 +12,7 @@ main() {
       css.then((String css) {
         expect(css, testScss);
       });
-    }, tags: ['scss']);
+    });
 
     test("can be close with **/", () {
       // tests for sass/dart-sass#58
@@ -22,7 +21,7 @@ main() {
       css.then((String css) {
         expect(css, testScss);
       });
-    }, tags: ['scss']);
+    });
   });
 }
 

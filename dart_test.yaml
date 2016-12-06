@@ -1,7 +1,3 @@
 tags:
   # Indicates tests that require Node.js.
   node:
-  # Indicates that tests are SCSS specific
-  scss:
-  # Tests should be ran on VM
-  vm:
